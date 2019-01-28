@@ -15,6 +15,8 @@ collections:
     label: post
     folder: post
     create: true
+    extension: json
+    format: json
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }

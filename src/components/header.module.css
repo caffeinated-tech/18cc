@@ -1,0 +1,30 @@
+.header {
+	color: green;
+	background-color:#333;
+}
+
+.logo {
+	font-weight: bold;
+	display: inline;
+	margin: 1rem;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+}
+
+.linkList {
+	list-style: none;
+	float:right;
+	color: white;
+}
+
+.link {
+	display:inline-block;
+	margin-right: 1rem;
+}
+
+.link a {
+	color: #e3e3e3;
+	text-decoration: none;
+}
