@@ -13,13 +13,14 @@ public_folder: assets
 collections:
   - name: post
     label: post
-    folder: post
+    folder: "content/post"
     create: true
     extension: json
     format: json
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
+      - { name: slug, label: Slug }
+      - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: titleImage, label: "Featured Image", widget: image }
       - { name: body, label: Body, widget: markdown }
       
