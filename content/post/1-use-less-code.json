@@ -1,0 +1,7 @@
+{
+  "slug": "1-Use-Less-Code",
+  "date": "2019-01-29T22:43:23.123Z",
+  "title": "#1 Use Less Code",
+  "titleImage": "/assets/time.png",
+  "body": "> \rWrite smaller programs. Cut unnecessary features. Most software latency and bugs come from code, so use less of that.\n\n\\- **Isaac Z. Schlueter** on [**blog.izs.me**](https://blog.izs.me/2012/07/7-surprising-ways-to-speed-up-your-site)\n\n\nSimple truths can often hurt, but this one rings true loud and clear to me. \n \n    // TODO: add a nice complicated and deceptive code sample here.\n\nOften I find myself over-complicating and over-engineering solutions. Yes, the code passes the linter, and I doubt it can be made any more concise. There are some clever algorithms in there, including uses of the more esoteric language features. And it runs in under 50ms.\n\nBut at what cost?\n\nNot only did it take forever to write, but it will be a pain to debug and modify later. \n\n\n    // TODO: add a long hand, but simpler version here, maybe use a tried and tested library for the heavy lifting?\n\nDo your future self a favor, and Keep it simple, stupid."
+}
