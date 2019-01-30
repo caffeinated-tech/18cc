@@ -1,10 +1,9 @@
 
 import React from "react"
 import { Link } from "gatsby"
-import style from "./header.module.css"
 
 const HeaderLink = (props) => (
-  <li className={style.link}>
+  <li className="header-link">
   	<Link to={props.to}>
   		{props.children}
   	</Link>
@@ -12,15 +11,18 @@ const HeaderLink = (props) => (
 )
 
 export default ({ children }) => (
-  <div className={style.header}>
-		<h1 className={style.logo}>	
-	  	<Link to="/">
-	      18cc
-	  	</Link>
-    </h1>
-    <ul className={style.linkList}>
-	    <HeaderLink to="/about/">About</HeaderLink>
-	    <HeaderLink to="/contact/">Contact</HeaderLink>
-    </ul>
+  <div className="header">
+    <div className="container">
+  		<div className="header-logo">	
+        <img src="/assets/18cc.png"/>
+  	  	<Link to="/">
+  	      18cc
+  	  	</Link>
+      </div>
+      <ul className="header-list">
+  	    <HeaderLink to="/about/">About</HeaderLink>
+  	    <HeaderLink to="/contact/">Contact</HeaderLink>
+      </ul>
+    </div>
 	</div>
 )

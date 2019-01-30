@@ -1,6 +1,75 @@
 html {
-	background-color: #424242;
+	/*background-color: #424242;*/
 	color: #fff;
 	padding: 0;
 	margin: 0;
+}
+
+.hero {
+  
+}
+.hero img{
+  display: block;
+  margin: 2rem auto;
+  max-width:300px;
+  max-height:300px;
+}
+.hero h1{
+  text-align: center;
+}
+
+
+
+.header {
+  position:fixed;
+  z-index: 10;
+  width:100%;
+  color: green;
+  background-color:#424242;
+  height:5rem ;
+}
+
+/*
+@media only screen and (max-width: 500px) {
+  .header {
+    padding: 0;
+  }
+}*/
+
+.header-logo {
+  font-size: 3rem;
+  font-weight: bold;
+  display: inline;
+  margin: 1rem;
+}
+.header-logo a{
+  color: white;
+  text-decoration: none;
+  vertical-align: 3px;
+}
+.header-logo img{
+  height:3rem;
+  margin-right:1rem;
+}
+
+.header-list {
+  list-style: none;
+  float:right;
+  color: white;
+  margin-top:12px;
+
+}
+
+.header-link {
+  display:inline-block;
+  margin-right: 1rem;
+}
+
+.header-link a {
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+.layout {
+  padding-top:7rem;
 }

@@ -6,9 +6,15 @@ import Layout from "../components/layout"
 export default ({ data }) => {
   console.log("data", data)
   return <Layout>
-    <div>
+    <div className="hero">
+      <img src="/assets/18cc.svg"/>
       <h1> {data.site.siteMetadata.title} </h1>
+      <hr/>
     </div>
+    <p>
+      Welcome to 18cc: a collection of concise software development insights. 
+      Think motivational posters filled with practical coding advice.
+    </p>
   </Layout>
 }
 

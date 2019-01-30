@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: '18cc'
+    title: '18 Caret Code'
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
